@@ -9,7 +9,7 @@
 
 # Web AAC
 
-> One line: what this is and who it's for (hint: it's for you).
+> This website provides non-verbal and semi-verbal indiviuals with a free and open source Augmentative and Alternative Communication (AAC) platform.
 
 **Author:** AJ Thompson · **Course:** CMP 464/343 Product 1 · **Last updated:** 10/13/26
 
@@ -17,24 +17,19 @@
 
 ## 1. About Me (the User)
 
-*Who am I in the context of this problem? What roles am I playing (student, employee, parent, athlete, gamer…)?*
-
-I am the sibling of a non-verbal child.
+I am the sibling of a non-verbal child. He requires his iPad in order to communicate with us. However, issues have arose with this method. 
 
 **The last 3 times this happened:**
-*Real, recent moments. For each: when and where, what went wrong, what it cost, what you did.*
 
-1. 
-2. 
-3. 
+1. Lack of portability. His iPad does not work on data. It requires wifi and therefore is not able to use outdoors. I would have to use a free AAC app on my phone, but it is not setup the same way as the paid one on our iPad.
+2. The device is limited. His school supplies and configures it without providing much guidance or freedom on how to adjust it for our personal use. We usually have to make do with few basic or school-focused options available to us.
+3. Setup can be difficult. Navigating for words or getting started with the AAC device can be confusing. The UI can be made more intuitive, but with regular use we have adapted to it.
 
 **What it costs me:**
-*Be specific. How often, how much?*
-
-- ⏱️ Time: Wasted on setup
+- ⏱️ Time: Spent on initial setup
 - 💸 Money: The cost of an iPad & the AAC application
-- 🔋 Energy: Requires understanding the UI
-- 🙂 Joy: Can be stressful and limits communication
+- 🔋 Energy: Low from struggles with navigating for certain words
+- 🙂 Joy: Limited by how hard it can be to communicate effectively
 
 ---
 
@@ -42,26 +37,26 @@ I am the sibling of a non-verbal child.
 
 **Gut check:**
 
-> I need **an AAC web application** because **it makes communication accessible for those who rely on them**.
+> I need **a free and open source AAC application** because **it makes communication accessible**.
 
 **Five Whys:**
-1. Why?
-2. Why?
-3. Why?
-4. Why?
-5. Why?
+1. The ability to conversate with others opens new opportunities
+2. Alternatives to AAC devices such as sign language has a higher learning curve & is not practiced by many
+3. Many AAC platforms run on legacy code
+4. AAC applications should provide more options for its users
+5. Not everyone can afford an iPad and AAC application, which is the common setup
 
 **Problem statement:**
 
-> **When** [a specific moment that keeps happening],
-> **I struggle to** [what goes wrong],
-> **which costs me** [time / money / energy / joy, with numbers if you can].
-> **This happens because** [root cause].
-> **Right now I** [what I do today], **but** [why it falls short].
+> **When** AAC devices are too restricted,
+> **I struggle to** communicate with my brother,
+> **which costs me** my joy.
+> **This happens because** there are not many free and open source options that can be used cross-platform.
+> **Right now I** use the AAC services provided with his iPad, **but** I cannot use it everywhere.
 
-**I'll know this is solved when:** [something I could observe changing]
+**I'll know this is solved when:** My brother can communicate freely and with ease from any device
 
-*Check: none of these words appear: app, website, platform, dashboard, tool, AI, track, automate, notify, feature.*
+<!-- *Check: none of these words appear: app, website, platform, dashboard, tool, AI, track, automate, notify, feature.* -->
 
 ---
 
@@ -69,9 +64,9 @@ I am the sibling of a non-verbal child.
 
 | What I use or tried | What it does well | Why it falls short *for me* |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| My brother's iPad AAC app | | |
+| Free AAC app on my phone | | |
+| Learning ASL | | |
 
 **The gap:** *In one sentence, what's still missing for me?*
 
