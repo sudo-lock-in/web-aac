@@ -64,9 +64,9 @@ I am the sibling of a non-verbal child. He requires his iPad in order to communi
 
 | What I use or tried | What it does well | Why it falls short *for me* |
 |---|---|---|
-| My brother's iPad AAC app | | |
-| Free AAC app on my phone | | |
-| Learning ASL | | |
+| My brother's iPad AAC app | It is pre-configured with key words and phrases including his own name, age, etc. | He can only use it at home or at school and there is not a lot of words available |
+| Free AAC app on my phone | I can use it anywhere | Limited options that are not personalized |
+| Learning ASL | Allows communication amongst non-verbal or deaf individuals | Learning curve |
 
 **The gap:** *In one sentence, what's still missing for me?*
 
