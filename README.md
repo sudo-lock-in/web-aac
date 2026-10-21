@@ -11,7 +11,7 @@
 
 > This website provides non-verbal and semi-verbal indiviuals with a free and open source Augmentative and Alternative Communication (AAC) platform.
 
-**Author:** AJ Thompson · **Course:** CMP 464/343 Product 1 · **Last updated:** 10/13/26
+**Author:** AJ Thompson · **Course:** CMP 464/343 Product 1 · **Last updated:** 10/21/26
 
 ---
 
@@ -68,32 +68,29 @@ I am the sibling of a non-verbal child. He requires his iPad in order to communi
 | Free AAC app on my phone | I can use it anywhere | Limited options that are not personalized |
 | Learning ASL | Allows communication amongst non-verbal or deaf individuals | Learning curve |
 
-**The gap:** *In one sentence, what's still missing for me?*
-
-[Your answer]
+**The gap:** 
+Portability and ease of use.
 
 ---
 
 ## 4. Features & Benefits
 
-*Every feature should move me toward my "solved when" line.*
-
 | Feature (what it does) | Benefit (how my life gets better) | MVP or Later? |
 |---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
+| Responsive web design | I can use it from any device | MVP |
+| Voice output | Provides a way to communicate verbally | MVP |
+| Key words with related images | Makes it clear what each option is for | MVP |
+| Custom words | Allows personalization | Later |
 
-**MVP (2–3 features):** *The skateboard: the smallest version I'd actually use.*
+**MVP (2–3 features):** 
 - Buttons with images representing common conversational words
 - Audio output of the words when those buttons are pressed
 
 **Later:**
-- 
+- Custom phrases can be added to provide personalization
 
-**Not doing:** *Things I'm deliberately leaving out.*
-- 
+**Not doing:** 
+- Making a mobile app version
 
 ---
 
@@ -107,18 +104,21 @@ I am the sibling of a non-verbal child. He requires his iPad in order to communi
 ### Back end
 | Piece | Choice | Why |
 |---|---|---|
-| Server / API | Node.js | |
-| Data storage | PostgreSQL / Supabase | |
+| Server / API | Next.js | Familiarity |
+| Data storage | PostgreSQL / Supabase | Integrates with Vercel |
 | Outside services (optional) | N/A | N/A |
-| Hosting / deploy | Vercel | |
+| Hosting / deploy | Vercel | Well-featured & integrates with Supabase |
 
 ### Architecture sketch
 
 ```mermaid
 flowchart LR
-  U["Me"] --> FE["Front end: ..."]
-  FE --> API["Back end / API: ..."]
-  API --> DB[("Data: ...")]
+  U["User"] --> FE["Next.js / React UI"]
+  FE --> VOICE["Browser speech synthesis"]
+  FE --> API["Next.js API routes"]
+  API --> DB[("Supabase PostgreSQL")]
+  DB --> API
+  API --> FE
 ```
 
 ---
